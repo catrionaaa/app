@@ -3,8 +3,9 @@ const FILES_TO_CACHE = [
   "/",
   "/index.html",
   "/manifest.json",
-  "/icons/icon-192.png",
-  "/icons/icon-512.png"
+  "/icons/icon-18.png",
+  "/icons/icon-22.png",
+  "/icons/icon-56.png"
 ];
 
 self.addEventListener("install", (event) => {
@@ -37,4 +38,5 @@ self.addEventListener("fetch", (event) => {
     caches.match(event.request)
       .then((cached) => cached || fetch(event.request))
   );
+
 });
