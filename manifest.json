@@ -1,6 +1,6 @@
 {
     "name": "Simplicikeys",
-    "short_name: "Simplicikeys",
+    "short_name": "Simplicikeys",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#FFFFFF",
@@ -22,4 +22,5 @@
     ]
 
   }
+
 
