@@ -2,9 +2,18 @@
     "name": "My PWA",
     "icons": [
       {
-        "src": "icons/512.png",
+        "src": "icons/icon-18.png",
         "type": "image/png",
-        "sizes": "512x512"
+        "sizes": "18x18",
+
+        "src": "icons/icon-22.png",
+        "type": "image/png",
+        "sizes": "22x22",
+
+        "src": "icons/icon-80.png",
+        "type": "image/png",
+        "sizes": "80x80"
       }
     ]
+
   }
