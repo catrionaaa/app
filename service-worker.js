@@ -5,7 +5,7 @@ const FILES_TO_CACHE = [
   "/manifest.json",
   "/icons/icon-18.png",
   "/icons/icon-22.png",
-  "/icons/icon-56.png"
+  "/icons/icon-80.png"
 ];
 
 self.addEventListener("install", (event) => {
@@ -40,3 +40,4 @@ self.addEventListener("fetch", (event) => {
   );
 
 });
+
