@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="manifest" href="manifest.json" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simplicikeys - Photo Upload</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="phone">
+
+    <!-- Top navigation -->
+    <div class="top-bar">
+      <a href="index.html" class="back">
+        <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" alt="Back arrow">
+        <span>Back to home</span>
+      </a>      
+      <a href="settings.html" class="settings">
+        <p>Settings</p>
+        <img src="https://cdn-icons-png.flaticon.com/512/3524/3524639.png" alt="Settings icon">
+      </a>
+    </div>
+
+    <!-- Main content -->
+    <div class="content photo-page">
+      <p class="instruction">Use the button below to add your photo</p>
+
+      <div class="photo-upload">
+        <button class="camera-button">
+          <label for="photo"><img src="https://cdn-icons-png.flaticon.com/512/1042/1042339.png" alt="Camera icon"></label>
+          <input
+            type="file"
+            id="photo"
+            name="photo"
+            accept="image/*">
+        </button>
+      </div>
+
+      <div class="help-section">
+        <h3>Having trouble?</h3>
+        <p>Make sure nothing is covering your phone camera</p>
+        <p>If you click the button and see the phrase "grant permission", click "accept" — this lets Simplicikeys use your camera</p>
+      </div>
+
+      <div class="extra-help">
+        <h3>Still having trouble?</h3>
+        <p>Try this guide</p>
+        <a href="#">How do I take a photo on my phone?</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

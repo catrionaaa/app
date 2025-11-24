@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="manifest" href="manifest.json" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simplicikeys</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="phone">
+    <div class="top-bar">
+      <div class="placeholder"></div> 
+      <a href="settings.html" class="settings">
+        <p>Settings</p>
+        <img src="https://cdn-icons-png.flaticon.com/512/3524/3524639.png" alt="Settings icon">
+      </a>
+    </div>
+
+    <div class="content">
+      <h1>Welcome to Simplicikeys!</h1>
+      <p class="subtitle">The library of simple tech tutorials</p>
+
+      <h2>Get started</h2>
+
+      <div class="buttons">
+        <a href="questionpage.html" class="nav-button">I have a question</a>
+        <a href="errorpage.html" class="nav-button">I have an error</a>
+        <a href="photoupload.html" class="nav-button">Photo upload</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register("service-worker.js")
+        .then(() => console.log("Service Worker registered"))
+        .catch(err => console.log("Service Worker registration failed:", err));
+    }
+  </script>
+</body>
+</html>
