@@ -1,19 +1,25 @@
 {
-    "name": "My PWA",
+    "name": "Simplicikeys",
+    "short_name: "Simplicikeys",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#00000",
     "icons": [
       {
         "src": "icons/icon-18.png",
         "type": "image/png",
-        "sizes": "18x18",
+        "sizes": "192x192",
 
         "src": "icons/icon-22.png",
         "type": "image/png",
-        "sizes": "22x22",
+        "sizes": "192x192",
 
         "src": "icons/icon-80.png",
         "type": "image/png",
-        "sizes": "80x80"
+        "sizes": "512x512"
       }
     ]
 
   }
+
